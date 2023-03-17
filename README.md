@@ -28,6 +28,7 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ![image](https://user-images.githubusercontent.com/60205208/226030514-5e71591d-8722-4e4c-9bd7-efa1e9f1da2b.png)
 
 <br>
+
 ### Tela de Criar / Editar
 
 ![image](https://user-images.githubusercontent.com/60205208/226031304-12ef75dc-0757-4185-803a-a1fc9c5c07e2.png)
