@@ -1,0 +1,28 @@
+{
+  "pensamentos": [
+    {
+      "id": 1,
+      "conteudo": "Visualize  o objetivo final e foque todo seu pensamento positivo para caminhar nessa direçao e alcançar o sucesso!",
+      "autoria": "Desconhecido",
+      "modelo": "modelo3"
+    },
+    {
+      "id": 2,
+      "conteudo": "Imagine uma nova história para sua vida e acredite nela.",
+      "autoria": "Paulo Coelho",
+      "modelo": "modelo2"
+    },
+    {
+      "id": 3,
+      "conteudo": "Um belo dia resolvi mudar e fazer tudo o que eu queria fazer.",
+      "autoria": "Rita lee",
+      "modelo": "modelo1"
+    },
+    {
+      "id": 4,
+      "conteudo": "Nada do que foi será, do novo, do jeito que já foi um dia.",
+      "autoria": "Lulu Santos",
+      "modelo": "modelo2"
+    }
+  ]
+}
