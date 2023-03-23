@@ -1,6 +1,9 @@
 # Memoteca
 Projeto consiste em um crud basico.
 
+Para rodar o backEnd, execute npm start dentro da pasta backend
+Para rodar o front, execute ng s na raiz do projeto.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.0.
 
 ## Development server

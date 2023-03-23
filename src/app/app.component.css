@@ -1,5 +1,12 @@
+.container_main{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
 main {
-    background: url(../../src/assets/imagens/background-completo.png);
-    background-size: cover;
-    min-height: 60vh;
+  background: url(../../src/assets/imagens/background-completo.png);
+  background-size: cover;
+  flex: 1;
+  height: 100vh;
 }
