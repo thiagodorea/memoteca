@@ -10,6 +10,7 @@
     <input type="text" class="input" id="autoria" formControlName="autoria" placeholder="Digite o autoria ou fonte" >
     <div class="mensagem__erro" *ngIf = "formulario.get('autoria')?.errors?.['required'] && formulario.get('autoria')?.dirty " >Campo é obrigatório</div>
     <div class="mensagem__erro" *ngIf = "formulario.get('autoria')?.errors?.['minlength']">Mínimo 3 caracteres!</div>
+    <div class="mensagem__erro" *ngIf = "formulario.get('autoria')?.errors?.['minusculo'] && formulario.get('autoria')?.dirty " >Esse campo aceita apenas letras minúsculas</div>
     <label for="modelo">Selecione o modelo do card:</label>
     <div class="modelo-cards">
       <div class="container-radio">
