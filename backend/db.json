@@ -5,14 +5,14 @@
       "conteudo": "Visualize  o objetivo final e foque todo seu pensamento positivo para caminhar nessa direçao e alcançar o sucesso!",
       "autoria": "Desconhecido",
       "modelo": "modelo3",
-      "favorito": true
+      "favorito": false
     },
     {
       "id": 2,
       "conteudo": "Imagine uma nova história para sua vida e acredite nela.",
       "autoria": "Paulo Coelho",
       "modelo": "modelo2",
-      "favorito": false
+      "favorito": true
     },
     {
       "id": 3,
@@ -26,14 +26,14 @@
       "conteudo": "Nada do que foi será, do novo, do jeito que já foi um dia.",
       "autoria": "Lulu Santos",
       "modelo": "modelo2",
-      "favorito": false
+      "favorito": true
     },
     {
       "id": 5,
       "conteudo": "Resolver o bug não consegue? Esfriar a cabeça você deve.",
       "autoria": "mestre yoda",
       "modelo": "modelo1",
-      "favorito": true
+      "favorito": false
     }
   ]
 }

@@ -9,17 +9,21 @@ import { Observable } from 'rxjs';
 export class PensamentoService {
 
   private readonly API = 'http://localhost:3000/pensamentos'
+  private itensPorPagina = 4
 
   constructor(private http: HttpClient) { }
 
-  listar(pagina: number, filtro: string): Observable<Pensamento[]> {
-    const itensPorPagina = 3;
+  listar(pagina: number, filtro: string, favoritos: boolean): Observable<Pensamento[]> {
     let params = new HttpParams()
       .set("_page",pagina)
-      .set("_limit",itensPorPagina );
+      .set("_limit",this.itensPorPagina );
 
       if(filtro.trim().length > 2){
         params = params.set("q", filtro);
+      }
+
+      if(favoritos){
+        params = params.set("favorito", true);
       }
     return this.http.get<Pensamento[]>(this.API, {params:params});
   }
